@@ -1,0 +1,8 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar wake;
+!slot <callCmd>;
+!slot <contact>;
+!start <callStart>;
+<callStart>:[<callCmd>]<callName>;
+<callCmd>:药盒药盒;
+<callName>:待会再提醒我|十分钟后提醒我|五分钟后提醒我|我不想吃药;
